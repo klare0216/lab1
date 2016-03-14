@@ -1,22 +1,19 @@
-Script started on Mon 14 Mar 2016 07:30:47 AM CST
-[1m[3m%[23m[1m[0m                                                                                ]2;kh@debian:~/lab1[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/lab1[39m $ [K[?1h=wwhw  wwhoami; pwd[?1l>
-]2;kh@debian:~/lab1kh
-/home/kh/lab1
-[1m[3m%[23m[1m[0m                                                                                ]2;kh@debian:~/lab1[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/lab1[39m $ [K[?1h=ggit config -1 l[?1l>
-]2;kh@debian:~/lab1user.name=KlareH
-user.email=klare0216@gmail.com
+Script started on Mon 14 Mar 2016 11:19:20 AM CST
+E64021012@2015cpp:~/Lion$ git config -l[Kgit config -l[2Pwhoami; pwdgit config --list [1@ [C[C[C[C[C[1P[C[C[C[C[C[7Pwhoami; pwd
+E64021012
+/home/E64021012/Lion
+E64021012@2015cpp:~/Lion$ whoami; pwdgit config -l
+use.name=klareH
+use.email=klare0216@gmail.com
 core.repositoryformatversion=0
 core.filemode=true
 core.bare=false
 core.logallrefupdates=true
 remote.origin.url=https://github.com/klare0216/lab1.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-branch.master.remote=origin
-branch.master.merge=refs/heads/master
-[1m[3m%[23m[1m[0m                                                                                ]2;kh@debian:~/lab1[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/lab1[39m $ [K[?1h=ggit clone https://github.com/klare0216/lab1.git[?1l>
-]2;kh@debian:~/lab1Cloning into 'lab1'...
-warning: You appear to have cloned an empty repository.
-Checking connectivity... done.
-[1m[3m%[23m[1m[0m                                                                                ]2;kh@debian:~/lab1[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/lab1[39m $ [K[?1h=ccat lab.script1.script[1C[1C[1C[1C[1C[1C[1C[11D           [11D c  
+color.ui=true
+E64021012@2015cpp:~/Lion$ git clone https://github.com/klare0216/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+E64021012@2015cpp:~/Lion$ exit
 
-Script done on Mon 14 Mar 2016 07:32:25 AM CST
+Script done on Mon 14 Mar 2016 11:20:27 AM CST
